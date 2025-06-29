@@ -16,8 +16,7 @@ This project implements a basic compiler frontend using **Lex and Yacc** with fe
 - **parser.y**: Validates grammar rules for control structures
 - **Features**:
   - Validates control structures (`if`, `while`, `for`, `switch`)
-  - Generates a parse tree
-  - Outputs a basic machine code simulation
+  - Outputs a basic machine code following Three Address Code
 
 ### 2. TAC Generator
 - `tac_generator.c`: Converts valid expressions/statements to Three Address Code
@@ -38,3 +37,4 @@ cc lex.yy.c y.tab.c
 ./a.out
 
 input -> output
+
